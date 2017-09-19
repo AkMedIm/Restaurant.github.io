@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Restaurant</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- google font -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Kreon:300,400,700'>
+
+
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="120" >
+
+
+    <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header visible-xs">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><h2>Nom de Restaurant</h2></a>
+            </div><!-- navbar-header -->
+        <div id="navbar" class="navbar-collapse collapse">
+            <div class="hidden-xs" id="logo"><a href="#header">
+                <img src="img/logo0.png" alt="">
+            </a></div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#story">Histoire</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#chefs">Notre Chefs</a></li>
+
+
+                <li><a href="#facts">Faits</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#special-offser">Offres Spéciales</a></li>
+
+                <!--fix for scroll spy active menu element-->
+                <li style="display:none;"><a href="#header"></a></li>
+
+            </ul>
+        </div><!--/.navbar-collapse -->
+        </div><!-- container -->
+    </div><!-- menu -->
+
+    <div id="header">
+        <div class="bg-overlay"></div>
+        <div class="center text-center">
+            <div class="banner">
+                <h1 class="">Restaurant</h1>
+            </div>
+            <div class="subtitle"><h4>Vous êtes le bienvenu</h4></div>
+        </div>
+        <div class="bottom text-center">
+            <a id="scrollDownArrow" href="#"><i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <!-- /#header -->
+
+    <div id="story" class="light-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <h2 class="section-title text-center">Notre Histoire</h2>
+            <p class="lead main text-center">Nous préparons de délicieux plats depuis 1879</p>
+            <div class="row text-center story">
+              <!--  <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper"> <i class="fa fa-anchor"></i> </div>
+                        <h3>EST. 1879</h3>
+                        <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum ultricies vehicula.</p>
+                    </div>
+                </div>-->
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper"> <i class="fa  fa-cutlery"></i> </div>
+                        <h3>Traditions Culinaires</h3>
+                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient monte nascetur ultricies vehicula. </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper"> <i class="fa fa-coffee"></i> </div>
+                        <h3>Nourriture De Qualité</h3>
+                        <p>Curabitur blandit matti tempus porttitor. Donec id elit non mi porta ut gravida at eget metus. Consectetur adipiscing elit ultricies vehicula.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.services -->
+        </div>
+        <!-- /.container -->
+        <section class="ss-style-bottom"></section>
+    </div><!-- #story -->
+
+
+    <div id="facts" class="parallax parallax2 facts">
+        <div class="container inner">
+            <div class="row text-center services-3">
+                <div class="col-sm-3">
+                    <div class="col-wrapper">
+                    <div class="icon-border bm10"> <i class="fa fa-coffee"></i> </div>
+                    <h4>796518</h4>
+                    <p>Tasse De Café Vendue</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="col-wrapper">
+                    <div class="icon-border bm10"> <i class="fa fa-futbol-o"></i> </div>
+                    <h4>39472</h4>
+                    <p>Match De Football Vus</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="col-wrapper">
+                    <div class="icon-border bm10"> <i class="fa fa-truck"></i> </div>
+                    <h4>2188764</h4>
+                    <p>Nourriture Livrée</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="col-wrapper">
+                    <div class="icon-border bm10"> <i class="fa fa-users"></i> </div>
+                    <h4>480523</h4>
+                    <p>Clients Dans Le Monde</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div><!-- #facts -->
+
+
+
+
+    <div id="food-menu" class="light-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <h2 class="section-title text-center">Menu</h2>
+            <p class="lead main text-center">Il n'y a pas d'amour plus sincère que l'amour de la nourriture!</p>
+
+                        <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/hot-drinks.png" alt="Hot Drinks"></div>
+                    <div class="menu-titles"><h1 class="">Boissons Chaudes</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Espresso</li>
+                            <li>Americano</li>
+                            <li>Capuccino</li>
+                            <li>Latte</li>
+                            <li>Mocha</li>
+                            <li>Chocolate Chaud</li>
+                            <li>Yummie Cafee</li>
+                            <li>Fruit Tea</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/ice-drinks.png" alt="Ice Drinks"></div>
+                    <div class="menu-titles"><h1 class="">Boissons Glaciaires</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Ice Coffee</li>
+                            <li>Americano</li>
+                            <li>Latte</li>
+                            <li>Vanilla Frappe</li>
+                            <li>Espresso Frappe</li>
+                            <li>Choco Frappe</li>
+                            <li>Iced Chai</li>
+                            <li>Fruit Fresh</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/smoothies.png" alt="Smoothies"></div>
+                    <div class="menu-titles"><h1 class="">Smoothies</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Mangue</li>
+                            <li>Fraise</li>
+                            <li>Myrtille</li>
+                            <li>Pêche</li>
+                            <li>Ananas</li>
+                            <li>Banane</li>
+                            <li>Milkshake</li>
+                            <li>Légumes Verts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/deserts.png" alt="Deserts"></div>
+                    <div class="menu-titles"><h1 class="">Deserts</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Cheesecake</li>
+                            <li>Tarte Au Chocolat</li>
+                            <li>Crêpes</li>
+                            <li>Muffins</li>
+                            <li>Tranches De Fruits</li>
+                            <li>Salade De Fruit</li>
+                            <li>Gateau A La Crème</li>
+                            <li>Ice Cream</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12">
+                    <div class="menu-images "><img src="img/menu/sprites.png" alt="Deserts"></div>
+                    <div class="menu-titles"><h1 class="">Soda Drinks</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                              <li>Mountain Dew</li>
+                              <li>Coca-Cola</li>
+                              <li>RedBull</li>
+                              <li>Mirinda</li>
+                              <li>Fayrouz</li>
+                              <li>Sprite</li>
+                              <li>Pepsi</li>
+                              <li>7Up</li>
+
+
+
+
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+        <section class="ss-style-bottom"></section>
+    </div><!--/#food-menu-->
+
+
+
+
+    <div id="special-offser" class="parallax pricing">
+        <div class="container inner">
+
+            <h2 class="section-title text-center">Offres Spéciales</h2>
+            <p class="lead main text-center">Il n'y a pas d'amour plus sincère que l'amour de la nourriture</p>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="pricing-item">
+
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/dish3.jpg" alt=""></a>
+
+                        <div class="pricing-item-details">
+
+                            <h3><a href="#">Riz frit au poulet</a></h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            <a class="btn btn-danger" href="#">Commandez maintenant</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-red">160DH</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="pricing-item">
+
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/dish2.jpg" alt=""></a>
+
+                        <div class="pricing-item-details">
+
+                            <h3><a href="#">Poulet chaud frit</a></h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            <a class="btn btn-danger" href="#">Commandez maintenant</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-lblue">180DH</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="clearfix visible-md"></div>
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="pricing-item">
+
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/dish4.jpg" alt=""></a>
+
+                        <div class="pricing-item-details">
+
+                            <h3><a href="#">Chicken chi7aja</a></h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            <a class="btn btn-danger" href="#">Commandez Maintenant</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-green">160DH</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="pricing-item">
+
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/dish1.jpg" alt=""></a>
+
+                        <div class="pricing-item-details">
+
+                            <h3><a href="#">Sushi</a></h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            <a class="btn btn-danger" href="#">Commandez Maintenant</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-red">270DH</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /container -->
+    </div><!-- /#special-offser -->
+    <div id="reservation" class="light-wrapper">
+      <section class="ss-style-top"></section>
+      <div class="container inner">
+        <h2 class="section-title text-center">Reservation</h2>
+        <p class="lead main text-center">Réservez votre table &amp; prendre plaisir Lorem ipsum.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <form action="" class="form form-table" method="post" name="">
+              <div class="form-group">
+                <h4>remplissez le formulaire de réservation de table (Tous les champs sont obliguatoires)</h4>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-6 form-group">
+                  <lable class="sr-only"for="first_name1">prénom</lable>
+                  <input type="text" class="form-control hint" id="first_name1"name="first_name"placeholder="prénom"required="">
+                </div>
+                <div class="col-lg-6 col-md-6 form-group">
+                  <label for="last_name" class="sr-only">nom</label>
+                  <input type="text" class="form-control hint" id="last_name1"name="last_name"placeholder="Nom"Required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 form-group">
+                  <label for="email1" class="sr-only">email</label>
+                  <input type="email" class="fonr-control hint" id="email1"name="email"placeholder="Email@domaine.com"required="">
+                </div>
+                <div class="col-lg-6 col-md-6 form-group">
+                  <label for="phone1" class="sr-only">telephone</label>
+                  <input type="text" class="form-control hint" id="phone1"name="phone"placeholder="Telephone"required="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 form-group">
+                  <label for="numb_guests1" class="sr-only">nombre d'invités</label>
+                  <input type="text" class="form-control hint" id="numb_guests1"name="numb_guests"placeholder="Nombre des invités"required="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 form-group">
+                  <label for="time1" class="sr-only">temps</label>
+                  <input type="text" class="form-control timepicker uitimepicker hint" id="time1"name="time"placeholder="Temp á"required=""autocomplete="off">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Asperiores voluptatum placeat rerum nam voluptatibus amet
+                      voluptatem unde assumenda odit, sapiente.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <button class="btn btn-danger btn-lg">reserve!</button>
+                </div>
+              </div>
+            </form>
+          </div><!-- col-md-6 -->
+          <div class="col-md-5 col-md-offset-1">
+            <h3><i class="fa fa-clock-o fa-fw"></i>Heurs</h3>
+            <h4>Déjeuner</h4>
+            <p>Lun á Ven: 7:30 AM - 11:30 AM <br>Sam &amp; Dim: 8:00 AM - 9:00 AM </p>
+            <h4>Déjeuner</h4>
+            <p>Lun á Ven: 12:00 PM - 5:00 PM</p>
+            <h4>Diner</h4>
+            <p>Lun to Sam: 6:00 PM - 1:00 AM <br>Dim: 5:30 PM -12:00 AM</p>
+            <h3><i class="fa fa-map-marker fa-fw"></i>Directions</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h3><i class="fa fa-mobile fa-fw"></i>Contacts</h3>
+            <p>Email: <a href="#"></a>Restaurant@Restaurant.com</p>
+            <p>Telephone: +212 0 00 00 00 00</p>
+          </div><!-- col-md-6 -->
+        </div>
+        <!-- /services -->
+      </div>
+      <!-- /container -->
+      <section class="ss-only-bottom"></section>
+    </div><!-- #reservation -->
+    <div id="chefs" class="parallax pricing">
+      <div class="container inner">
+        <h2 class="section-title text-center">Notre Chefs</h2>
+        <p class="lead main text-center">Il n'y a pas d'amour plus sincére que l'amour de la nourriture</p>
+        <div class="row text-center chefs">
+          <div class="col-sm-4">
+            <div class="col-wrapper">
+              <div class="icon-wrapper">
+                <img src="img/chefs/1.jpg" alt="">
+              </div>
+              <h3>Nom Prénom</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ullam doloremque, alias ex quas libero.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="col-wrapper">
+              <div class="icon-wrapper">
+                <img src="img/chefs/2.jpg" alt="">
+              </div>
+              <h3>Nom Prénom</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus numquam, natus ipsa. Dolorum, optio, quidem!</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="col-wrapper">
+              <div class="icon-wrapper">
+                <img src="img/chefs/3.jpg" alt="">
+              </div>
+              <h3>Nom Prénom</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad in cumque veniam sunt saepe quae.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div> <!-- /chefs -->
+    <footer id="footer" class="dark-wrapper">
+      <section class="ss-style-top"></section>
+      <div class="container inner">
+        <div class="row">
+          <dic class="col-sm-6">
+            &copy; Copyright Restaurant 2017 <br/>Coded by <a href="https://akmedim.github.io./" class="codedBy">AKDIM</a>
+          </div>
+          <div class="col-cm-6">
+            <div class="social-bar">
+              <a href="#" class="fa fa-instagram tooltipped"></a>
+              <a href="#"class="fa fa-youtube-square tooltipped"></a>
+              <a href="#"class="fa fa-facebook-square tooltipped"></a>
+              <a href="#"class="fa fa-google-plus-square tooltopped"></a>
+              <a href="#" class="fa fa-twitter-square tooltipped"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- /.container -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.actual.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/Bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
