@@ -153,7 +153,7 @@ section::before,section::after{
   -moz-transition:all 0.4s;
   color:white;
   font-weight: bold;
-  /*font-size: 19px;*/
+
 
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a{
@@ -482,13 +482,17 @@ section::before,section::after{
 }
 @media(max-width:767px){
   #header .banner h1{
-    font-size: 60px;
+    font-size: 40px;
   }
   #header .subtitle h4{
-    font-size: 22px;
+    font-size: 20px;
+  }
+  .copy{
+    text-align: center;
+    font-size: 20px;
   }
   .social-bar{
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
   }
 }
