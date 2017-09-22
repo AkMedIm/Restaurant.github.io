@@ -185,6 +185,7 @@ section::before,section::after{
 }
 .main{
   margin-bottom: 90px;
+
 }
 .lead:after{
   position: absolute;
@@ -214,14 +215,12 @@ section::before,section::after{
 
 .parallax{
   background: url(../img/paralllax3.jpg) fixed no-repeat center center;
-  background: opacity(0.8);
   -webkit-background-size:cover;
   -o-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
   position: relative;
   color: #fff;
-  /*opacity: 0.8;*/
 }
 .parallax3{
 background-image: url(../img/paralax2.jpg);
@@ -233,7 +232,7 @@ background-position: center center;
 background-attachment: fixed;
 background-repeat: no-repeat;
 position: relative;
-/*opacity: 0.8;*/
+
 }
 .parallax .inner{
   padding-top: 130px;
@@ -241,7 +240,7 @@ position: relative;
 }
 .parallax.parallax2{
   background-image: url(../img/parallax2.jpg);
-  /*opacity: 0.8;*/
+
 }
 .bm10{
   margin-bottom: 10px !important;
