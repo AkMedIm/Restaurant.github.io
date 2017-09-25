@@ -1,6 +1,6 @@
 $(document).ready(function() {
-// Add smooth scrolling to all links in navbar + footer link
-$(".navbar a, footer a,[href='#myPage'],#scrollDownArrow").on('click', function(event) {
+// Add smooth scrolling to all links in navbar + scrollDownArrow
+$(".navbar a,[href='#myPage'],#scrollDownArrow").on('click', function(event) {
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
     // Prevent default anchor click behavior
@@ -21,13 +21,12 @@ $(".navbar a, footer a,[href='#myPage'],#scrollDownArrow").on('click', function(
   } // End if
 });
 
-/*$(window).scroll(function() {
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
-    var winTop = $(window).scrollTop();
-      if (pos < winTop + 600) {
-        $(this).addClass("slide");
-      }
-  });
-});*/
+
+
+
+
+
+
+
+
 });
