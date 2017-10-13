@@ -260,7 +260,7 @@ section::before,section::after{
   background: #000;
   width: 80px;
   height: 3px;
-  bottom: -220px;
+  bottom: -250px;
   left: 50%;
   margin-left: -40px;
 }
