@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
 // Add smooth scrolling to all links in navbar + scrollDownArrow
 $(".navbar a,[href='#myPage'],#scrollDownArrow,#scrollUpArrow").on('click', function(event) {
   // Make sure this.hash has a value before overriding default behavior
